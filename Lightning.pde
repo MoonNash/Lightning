@@ -18,3 +18,11 @@ void draw(){
   
  }
 }
+
+void mousePressed(){
+startX = 200;
+startY = 200;
+endX = 0;
+endY = 200;
+redraw();
+}
